@@ -6,7 +6,7 @@
 //  Selatan: kafe payung & rumah warga.
 //  Ganti tema cukup di berkas ini; papan3d.js tidak perlu diubah.
 // =============================================================
-import * as THREE from 'three';
+import * as THREE from './vendor/three.module.min.js';
 import { RoundedBoxGeometry } from './vendor/RoundedBoxGeometry.js';
 
 const GY = -0.63;          // tinggi tanah
